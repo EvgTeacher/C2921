@@ -1,16 +1,45 @@
-# This is a sample Python script.
+# class Student:
+#     print("Hi")
+#
+#
+# st1 = Student()
+# st2 = Student()
+# st3 = Student()
+#
+# print(st1)
+# print(st2)
+# print(st3)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+class Student:
+    education = "Step"
+
+    def __init__(self, age, height=120, name='Oleg'):
+        self.name = name
+        self.age = age
+        self.height = height
+        print("__inin__")
+
+st1 = Student(13)
+print(st1.name)
+print(st1.age)
+print(st1.height)
+print(st1.education)
+st1.height = 135
+print(st1.height)
+st2 = Student(15, 155, 'Sergiy')
+print(st2.name)
+print(st2.age)
+print(st2.height)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# st1 = Student()
+# print(st1.education)
+# print(st1.height)
+# print(st1.name)
+# st2 = Student()
+# print(st2.education)
+# print(st2.age)
+# st3 = Student()
+# # print(id(st1))
