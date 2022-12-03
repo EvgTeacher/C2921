@@ -33,7 +33,6 @@ print(st2.height)
 
 
 
-
 # st1 = Student()
 # print(st1.education)
 # print(st1.height)
